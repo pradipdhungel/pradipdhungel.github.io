@@ -1,77 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>World News - The New York Times</title>
-    <link rel="icon" href="Images/t-logo-1200x629-000000.png" />
-    <style>
-      .main-container {
-        margin: 0 auto;
-        position: relative;
-      }
-      .header-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: stretch;
-      }
-      .log-in {
-        background-color: rgb(4, 51, 75);
-        display: flex;
-        padding: 1%;
-        border-radius: 6px;
-        /* color: aliceblue; */
-        text-align: center;
-        font-size: smaller;
-        justify-content: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-      }
-      .world-news {
-        color: black;
-        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-        font-size: 16px;
-        letter-spacing: 0.7px;
-        text-transform: uppercase;
-        line-height: 19px;
-        font-weight: 700;
-        text-decoration: none;
-      }
 
-      a:hover {
-        text-decoration: underline;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>World News - The New York Times</title>
+  <link rel="icon" href="Images/t-logo-1200x629-000000.png" />
+  <style>
+    .main-container {
+      margin: 0 auto;
+      position: relative;
+      text-align: center;
+    }
 
-      .a-log-in {
-        color: aliceblue;
-        text-decoration: none;
-      }
-    </style>
-  </head>
+    .header-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: stretch;
+    }
 
-  <body>
-    <div class="main-container">
-      <div class="header-container">
+    .log-in {
+      background-color: rgb(4, 51, 75);
+      display: flex;
+      padding: 1%;
+      border-radius: 6px;
+      /* color: aliceblue; */
+      text-align: center;
+      font-size: smaller;
+      justify-content: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .world-news {
+      color: black;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      font-size: 16px;
+      letter-spacing: 0.7px;
+      text-transform: uppercase;
+      line-height: 19px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .a-log-in {
+      color: aliceblue;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="header-container">
+      <div style="display: flex; justify-content: space-around">
         <div style="display: flex; justify-content: space-around">
-          <div style="display: flex; justify-content: space-around">
-            <img src="Images/menuImg.JPG" width="34" height="33" />
-          </div>
-          <div style="display: flex; justify-content: space-around">
-            <img src="Images/SearchIcon.JPG" width="34" height="33" />
-          </div>
+          <img src="Images/menuImg.JPG" width="34" height="33" />
         </div>
-        <div
-          style="margin-top: 5px; font-family: 'Times New Roman', Times, serif"
-        >
-          <a href="#" class="world-news">WORLD NEWS</a>
+        <div style="display: flex; justify-content: space-around">
+          <img src="Images/SearchIcon.JPG" width="34" height="33" />
         </div>
-        <div style="">
-          <img src="Images/MainLogo.png" width="195" height="27" />
-        </div>
+      </div>
+      <div style="margin-top: 5px; font-family: 'Times New Roman', Times, serif">
+        <a href="#" class="world-news">WORLD NEWS</a>
+      </div>
+      <div>
+        <img src="Images/MainLogo.png" width="195" height="27" />
+      </div>
 
-        <div class="log-in"><a class="a-log-in" href="#">LOG IN</a></div>
+      <div class="log-in"><a class="a-log-in" href="#">LOG IN</a></div>
+
+    </div>
+    <hr style="border: 1px solid rgb(197, 186, 186);">
+    <div>ADVERTISEMENT</div>
+    <hr style="border: 1px solid rgb(197, 186, 186);">
+
+    <img src="Images/advertisement.JPG" alt="" width="1000">
+
+  </div>
+  <hr style="border: 1px solid rgb(197, 186, 186);">
+  <div>
+    <h2 style="font-size: 30px; font-weight: 0.8em;">World News</h2>
+  </div>
+  <div>AFRICA | AMERICA | ASIA | AUSTRATIA | CANADA | EUROPE | MIDDLE EAST</div>
+  <hr style="border:1px solid black">
+  <div style="display:grid; grid-template-columns: 5fr 3fr 2fr ; gap: 8px; ">
+
+    <div style="display: flex; flex-direction: column; border-right: 1px solid; ">
+      <div style="display:flex; flex-direction: column; justify-content: center; align-items: center; ">
+        <div>
+          <img src="Images/liveUpdate.jpg" width="580px" height="327px" style="object-fit:cover;">
+        </div>
+        <div>
+          <h3>Live Updates: Turkey Says a Deal Has Been Reached to Unblock Ukrainian Grain Exports</h3>
+          <div>
+            The Turkish presidency said the pact would be signed on Friday, but Russia and Ukraine
+            did not immediately confirm they had an agreement. If signed, a deal would help alleviate
+            a global grain shortage.
+          </div>
+        </div>
       </div>
     </div>
-  </body>
+    <div style="display: flex; flex-direction: column;align-items: center; border-right: 1px solid; ">
+      <div class="img-fit">
+        <img src="Images/21ukraine-briefing-promo-2am-videoLarge-v2.jpg" width="350px" height="200px"
+          style="object-fit:cover;">
+      </div>
+      <h3> Ukraine Tries to Make the Case That It Can Win, Citing Recent Strikes</h3>
+      <div>
+        Pushing back against skepticism that Western weapons will allow them to turn the tide against Russia, Ukrainians
+        point to successful attacks using new long-range rocket systems.
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column;">
+      <div>
+        <div class="img-fit"><img src="Images/cat.jpg" width="150px" style="object-fit: cover ;">
+        </div>
+        <div>
+          <h3>Deep in a Covid Wave, Europe Counts Cases and Carries On</h3>
+
+          Even in countries that once took strict measures, the authorities are relying on vaccination
+          and past infections to take the sting out of Omicron subvariants.
+        </div>
+      </div>
+      <div>
+        <div class="img-fit"><img src="Images/21ItalyResignation01-thumbLarge.jpg" width="150px"
+            style="object-fit: cover ;">
+        </div>
+        <div>
+          <h3>Deep in a Covid Wave, Europe Counts Cases and Carries On</h3>
+
+          Even in countries that once took strict measures, the authorities are relying on vaccination
+          and past infections to take the sting out of Omicron subvariants.
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <hr style="border: 1px solid grey;">
+  <div style="display:grid; grid-template-columns:2fr 2fr 2fr 2fr 2fr; gap: 20px; padding: 30px; ">
+    
+    <div>
+      <img src="Images/nextIndiapresident.jpg" style="height:150px; width: 250px;">
+      <div>India’s Next President Will Make History When She’s Sworn In</div>
+    </div>
+
+    <div>
+      <img src="Images/bbcappo.jpg" style="height:150px; width: 250px;">
+      <div>BBC Apologizes to Royal Nanny Swept Up in Diana Reporting Furor</div>
+    </div>
+
+    <div>
+      <img src="Images/village.jpg" style="height:150px; width: 250px;">
+      <div>A Village Retaken, and a Confidence Boost for Ukraine’s Troops</div>
+    </div>
+
+    <div>
+      <img src="Images/00argentina-language-thumbLarge.jpg" style="height:150px; width: 250px;">
+      <div>In Argentina, One of the World’s First Bans on Gender-Neutral Language</div>
+    </div>
+    <div>
+      <img src="Images/merlin_183216513_af322921-5468-4f54-b1c6-38b293cd6e5f-videoLarge.jpg" style="height:150px; width: 250px;">
+      <div>Belgium Ratifies Prisoner-Exchange Treaty With Iran</div>
+    </div>
+
+    <div>
+      <img src="Images/anan.jpg" style="height:150px; width: 250px;">
+      <div>An An, World’s Oldest Giant Male Panda in Captivity, Dies at 35</div>
+    </div>
+
+    <div>
+      <img src="Images/london all.jpg" style="height:150px; width: 250px;">
+      <div>London Shows How Unprepared Northern Cities Are for a Warmer World</div>
+    </div>
+
+    <div>
+      <img src="Images/temp.jpg" style="height:150px; width: 250px;">
+      <div>As Temperatures Rise, ‘This Is a Preview.’ Will the Warning Be Heard?</div>
+    </div>
+    <div>
+      <img src="Images/merlin_183216513_af322921-5468-4f54-b1c6-38b293cd6e5f-videoLarge.jpg" style="height:150px; width: 250px;">
+      <div>Belgium Ratifies Prisoner-Exchange Treaty With Iran</div>
+    </div>
+
+    <div>
+      <img src="Images/anan.jpg" style="height:150px; width: 250px;">
+      <div>An An, World’s Oldest Giant Male Panda in Captivity, Dies at 35</div>
+    </div>
+
+
+
+  </div>
+  <div class="footer" style="display: flex; justify-content: center; align-items: center; margin-right: 10px;">
+    <img src="Images/footer.JPG" width="1000px">
+  </div>
+
+
+</body>
+
 </html>
